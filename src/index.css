@@ -1,0 +1,21 @@
+@import 'tailwindcss';
+
+.effect {
+    box-shadow: #f9c004 10px 10px 0px 0px;
+    transition: transform 200ms, box-shadow 200ms;
+    border-radius: 8px;
+}
+.effect:hover {
+    transform: translateY(4px) translateX(4px);
+    /* box-shadow: #fff 0px 0px 0px 0px; */
+    box-shadow: #f9c004 -10px -10px 0px 0px;
+    transition: transform 200ms, box-shadow 200ms;
+    border-radius: 8px;
+}
+
+.heat {
+    padding: 3px;
+    box-shadow: #BEE4D0 10px 10px 0px 0px, #BEE4D0 -10px -10px 0px 0px;
+    transition: transform 200ms, box-shadow 200ms;
+    border-radius: 8px;
+  }
